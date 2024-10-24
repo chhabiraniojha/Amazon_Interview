@@ -1,0 +1,60 @@
+/* StepOne.css */
+
+.step {
+  padding: 20px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+.form-label {
+  display: block;
+  margin-bottom: 10px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  
+}
+
+.form-control-file {
+  padding: 10px;
+}
+.button-group-step1{
+  display: flex;
+  justify-content: right;
+}
+.btn-step1{
+  padding: 12px 60px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom:5px;
+}
+.btn-step1-primary{
+  background-color: #13191d;
+  color: #ffffff;
+}
+.btn-step1-secondary {
+  background-color: #13191d;
+  color: #ffffff;
+}
+.btn-step1:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+/* Media Queries */
+@media (max-width: 768px) {
+  .step {
+    padding: 10px;
+  }
+}

@@ -1,0 +1,41 @@
+/* StepOne.css */
+
+.step {
+    padding: 20px;
+    max-width: 700px;
+    margin: 0 auto;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .button-group-step0 {
+    display: flex;
+    justify-content: right;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .step {
+      padding: 10px;
+    }
+  }
+  

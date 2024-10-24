@@ -1,0 +1,90 @@
+/* Navbar.css */
+
+.navbar {
+  background-color:  #13191d; /* Flipkart's blue background color */
+  color: white;
+  padding: 10px 0;
+  font-size: 1rem;
+  position: fixed; /* Make the navbar fixed */
+  top: 0; /* Position it at the top of the viewport */
+  width: 100%; /* Full width */
+  z-index: 1000; /* Ensure it's above other content */
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  
+}
+
+.logo {
+  position: absolute;
+  margin-top: 15px;
+  text-align: left;
+  height: 40px; /* Adjust as per your logo size */
+  margin-right: 10px; /* Add some spacing between logo and text */
+}
+
+.navbar-content {
+  text-align: center;
+}
+
+.navbar-description {
+  font-weight: bold;
+  margin: 0;
+}
+
+.navbar-subtitle {
+  margin: 0;
+  font-size: 0.8rem;
+  color: #f0f0f0; /* Lighter gray color */
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+}
+
+.register-link {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+
+.register-link:hover {
+  background-color: white;
+  color: #13191d; /* Flipkart's blue color */
+}
+
+@media (max-width: 767px) {
+  .navbar-content {
+    display: none; /* Hide the center-aligned text on mobile */
+  }
+
+  .container {
+    flex-direction: row; /* Revert to row layout for mobile */
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px; /* Adjust padding for better spacing */
+  }
+
+  .logo {
+    height: 28px; /* Further reduce logo height for mobile */
+  }
+
+  .register-link {
+    padding: 6px 12px; /* Further adjust padding for smaller screens */
+  }
+}

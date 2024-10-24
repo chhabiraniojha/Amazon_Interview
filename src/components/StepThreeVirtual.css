@@ -1,0 +1,76 @@
+
+.step-3{
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.questions-section {
+  margin-bottom: 20px;
+  border:5px;
+  border-color:black;
+}
+
+.question-container {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column; /* Ensure that label and textarea are on separate lines */
+  justify-content:left;
+  align-items:left;
+}
+
+.question-label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.answer-textarea {
+  width: 100%; /* Make textarea full width */
+  height: 200px; /* Set textarea height to 200px */
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  resize: vertical; /* Allows vertical resizing */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.popup-message {
+  color: red;
+  margin-top: 10px;
+}
+

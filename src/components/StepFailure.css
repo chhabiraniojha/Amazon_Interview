@@ -1,0 +1,60 @@
+.step-failure {
+    background-color: #fce8e6;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .step-failure h2 {
+    color: #f44336;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .step-failure p {
+    color: #333;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  
+  .step-failure .icon {
+    font-size: 64px;
+    color: #f44336;
+    margin-bottom: 20px;
+  }
+  
+  .step-failure .btn {
+    padding: 12px 25px;
+    font-size: 18px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .step-failure .btn:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+  }
+  

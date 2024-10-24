@@ -1,0 +1,45 @@
+/* Loader.css */
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed; /* Fixed position to cover the entire screen */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Dark semi-transparent background */
+  z-index: 9999; /* Ensure it appears on top of all content */
+}
+
+.loader {
+  font-size: 50px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.loader-text {
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  animation: pulse 1s infinite;
+}
+
+.loader-note {
+  font-size: 18px;
+  color: #ffcc00; /* Yellow color for emphasis */
+  text-align: center;
+  margin-top: 10px;
+  animation: pulse 1s infinite;
+}
+
+.loader-note i {
+  margin-right: 10px;
+}
+
+@keyframes pulse {
+  0% { opacity: 0.7; }
+  50% { opacity: 1; }
+  100% { opacity: 0.7; }
+}

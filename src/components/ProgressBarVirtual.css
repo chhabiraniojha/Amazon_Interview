@@ -1,0 +1,37 @@
+.progress-bar {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to the next line */
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .step {
+    flex: 1 1 auto; /* Take up equal space and allow for wrapping */
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  .step.current {
+    border-bottom: 2px solid #13191d; /* Blue color for current step */
+    font-weight: bold;
+  }
+  
+  .step.completed {
+    border-bottom: 2px solid #28a745; /* Green color for completed steps */
+  }
+  
+  /* Media Query for Mobile Devices */
+  @media (max-width: 767px) {
+    .progress-bar {
+      flex-direction: column; /* Stack items vertically on mobile */
+      align-items: center; /* Center items horizontally on mobile */
+    }
+  
+    .step {
+      flex: none; /* Disable flex grow to prevent stretching */
+      width: 100%; /* Full width for each step */
+      margin-bottom: 10px; /* Space between steps */
+    }
+  }
+  
